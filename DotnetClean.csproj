@@ -22,18 +22,21 @@
         <RepositoryUrl>https://github.com/Arasz/dotnet-clean-artifacts</RepositoryUrl>
         <PackageTags>dotnet, cli, dotnet-cli, tool, tools, clean, artifacts, build</PackageTags>
         <Description>.NET Core tool that can clean all your dotnet build artifacts.</Description>
-        <PackageLicense>https://github.com/Arasz/dotnet-clean-artifacts/blob/master/LICENSE</PackageLicense>
+        <PackageLicense>https://github.com/Arasz/dotnet-clean-artifacts/blob/main/LICENSE</PackageLicense>
         <Version>1.0.2</Version>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Spectre.Console" Version="0.47.0" />
-        <PackageReference Include="Spectre.Console.Cli" Version="0.47.0" />
+        <PackageReference Include="Spectre.Console" Version="0.47.0"/>
+        <PackageReference Include="Spectre.Console.Cli" Version="0.47.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="README.md" Pack="True" PackagePath="\">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
+        <None Update="README.md" Pack="True" PackagePath="\">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="LICENSE" Pack="True" PackagePath="\">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 </Project>

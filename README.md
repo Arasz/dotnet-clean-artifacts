@@ -1,5 +1,6 @@
 # dotnet-clean-artifacts
-[![Build status](https://arasz.visualstudio.com/dotnet-clean-artifacts/_apis/build/status/Build%20and%20push)](https://arasz.visualstudio.com/dotnet-clean-artifacts/_build/latest?definitionId=3)
+[![Build and publish package](https://github.com/Arasz/dotnet-clean-artifacts/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Arasz/dotnet-clean-artifacts/actions/workflows/dotnet.yml)
+[![CodeQL](https://github.com/Arasz/dotnet-clean-artifacts/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Arasz/dotnet-clean-artifacts/actions/workflows/github-code-scanning/codeql)
 
 Global .NET Core tool that can clean all your build artifacts.
 
@@ -14,10 +15,11 @@ dotnet tool install -g dotnet-clean-artifacts
 
 ## How to run it?
 
-Just run
-
+Run in your project main directory:
 ```
 clean-artifacts
 ```
-
-in your project main directory. 
+To see all available options run:
+```
+clean-artifacts -h
+```
