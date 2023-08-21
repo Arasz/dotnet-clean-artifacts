@@ -5,6 +5,6 @@ var app = new CommandApp<CleanBuildArtifactsCommand>();
 app.Configure(configurator =>
 {
     configurator.Settings.ApplicationName = "clean-artifacts";
-    configurator.Settings.ApplicationVersion = "1.0.2";
+    configurator.Settings.ApplicationVersion = "1.0.3";
 });
 await app.RunAsync(args);

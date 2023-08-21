@@ -23,7 +23,7 @@
         <PackageTags>dotnet, cli, dotnet-cli, tool, tools, clean, artifacts, build</PackageTags>
         <Description>.NET Core tool that can clean all your dotnet build artifacts.</Description>
         <PackageLicense>https://github.com/Arasz/dotnet-clean-artifacts/blob/main/LICENSE</PackageLicense>
-        <Version>1.0.2</Version>
+        <Version>1.0.3</Version>
     </PropertyGroup>
 
     <ItemGroup>
